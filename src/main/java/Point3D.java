@@ -1,6 +1,6 @@
 public class Point3D extends Point2D {
     private float z;
-    private float[] arrCoordinate = new float[3];
+    private float[] arrCoordinate3 = new float[3];
 
     public Point3D() {
     }
@@ -8,6 +8,7 @@ public class Point3D extends Point2D {
     public Point3D(float x, float y, float z) {
         super(x, y);
         this.z = z;
+        arrCoordinate3 = new float[]{super.getCoordinate()[0], super.getCoordinate()[1], z};
     }
 
     public float getZ() {
@@ -16,21 +17,24 @@ public class Point3D extends Point2D {
 
     public void setZ(float z) {
         this.z = z;
+        arrCoordinate3[2] = z;
+
     }
 
-    public void setCoordinate() {
-        arrCoordinate[0] = getX();
-        arrCoordinate[1] = getY();
-        arrCoordinate[2] = getZ();
+    public void setCoordinate(float x, float y, float z) {
+        setX(x);
+        setY(y);
+        setZ(z);
+        arrCoordinate3 = new float[]{super.getCoordinate()[0], super.getCoordinate()[1], z};
     }
 
     @Override
     public float[] getCoordinate() {
-        return arrCoordinate;
+        return arrCoordinate3;
     }
 
     @Override
     public String toString() {
-        return "(" + arrCoordinate[0] + ", " + arrCoordinate[1] + ", " + arrCoordinate[2] + ")";
+        return "(" + arrCoordinate3[0] + ", " + arrCoordinate3[1] + ", " + arrCoordinate3[2] + ")";
     }
 }

@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b4626cf-11e6-4639-a111-d6c6580fbb5d" name="Default Changelist" comment="" />
+    <list default="true" id="2b4626cf-11e6-4639-a111-d6c6580fbb5d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Point2D.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Point2D.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Point3D.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Point3D.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/TestPoint2DPoint3D.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/TestPoint2DPoint3D.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Point2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Point2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Point3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Point3D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestPoint2DPoint3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestPoint2DPoint3D.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +36,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Qij44JYADZ2o0c8BlK4u5v7OG9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -64,11 +84,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568260115930</updated>
-      <workItem from="1568260122070" duration="2433000" />
+      <workItem from="1568260122070" duration="3874000" />
+      <workItem from="1568270358097" duration="2754000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

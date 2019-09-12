@@ -10,6 +10,7 @@ public class Point2D {
     public Point2D(float x, float y) {
         this.x = x;
         this.y = y;
+        arrCoordinate = new float[]{x, y};
     }
 
     public float getX() {
@@ -18,6 +19,7 @@ public class Point2D {
 
     public void setX(float x) {
         this.x = x;
+        arrCoordinate[0] = x;
     }
 
     public float getY() {
@@ -26,11 +28,12 @@ public class Point2D {
 
     public void setY(float y) {
         this.y = y;
+        arrCoordinate[1] = y;
     }
 
-    public void setCoordinate(){
-        arrCoordinate[0] = getX();
-        arrCoordinate[1] = getY();
+    public void setCoordinate(float x,float y){
+        setX(x);
+        setY(y);
     }
 
     public float[] getCoordinate() {
